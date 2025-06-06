@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: url('your-hero-image.jpg') no-repeat center center / cover;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  button {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
