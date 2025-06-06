@@ -11,6 +11,53 @@ body {
     padding: 100px 20px;
     text-align: center;
   }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    z-index: 1000;
+    padding: 1rem, 2rem;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo img {
+    height: 60px;
+    width: auto;
+  }  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: red;
+  }
+  
+  /* To avoid hiding the top of your content behind the nav */
+  body {
+    padding-top: 80px; /* Adjust based on navbar height */
+  }
   
   h1 {
     font-size: 3rem;
