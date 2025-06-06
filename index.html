@@ -3,102 +3,158 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AA Personal Training</title>
+  <link rel="icon" type="image/png" href="images/favicon3.png" />
+  <title>Assef Almasri</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <h1>BUILD MUSCLE.</h1>
-    <h1>BURN FAT.</h1>
-    <h1>NO EXCUSES.</h1>
-    <button>Start Your Transformation</button>
-  </header>
-
-  <nav class="navbar">
-    <div class="nav-container">
-        <div class="logo">
-            <a href="#">
-                <img src="images/logo-bg-none.png" alt="A.A logo">
-            </a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#transformations">TRANSFORMATIONS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </div>
-  </nav>
-
-  <section id="services">
-    <h2>Services</h2>
-    <div class="services-container">
-        <div class="service-card">
-          <h3>1-on-1 Coaching</h3>
-          <p>Personalised training plans, accountability, and support.</p>
-        </div>
-        <div class="service-card">
-          <h3>Online Plans</h3>
-          <p>Custom workout and meal plans sent straight to your inbox.</p>
-        </div>
-        <div class="service-card">
-          <h3>Group Sessions</h3>
-          <p>Train hard with a team. Burn fat and build muscle together.</p>
-        </div>
-      </div>      
-  </section>
-
-  <section id="transformations">
-    <h2>Transformations</h2>
-    <div class="transformations-container">
-        <div class="transformation-card">
-          <img src="images/client1.jpg" alt="Client 1" />
-          <p>-12kg in 4 months</p>
-        </div>
-        <div class="transformation-card">
-          <img src="images/client2.jpg" alt="Client 2" />
-          <p>+7kg muscle in 6 months</p>
-        </div>
-        <!-- Add more -->
-      </div>      
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <form action="https://formspree.io/f/mblydlzp" method="POST">
-      <input type="email" name="email" placeholder="Your email" required />
-      <textarea name="message" placeholder="Your message" required></textarea>
-      <button type="submit">SEND</button>
-    </form>
-  </section>
-
-  <footer>
-    <div class="footer-container">
-        <div class="footer-col">
-            <div class="logo-footer">
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
                 <a href="#">
                     <img src="images/logo-bg-none.png" alt="A.A logo">
                 </a>
             </div>
+            <ul class="nav-links">
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#transformations">TRANSFORMATIONS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
         </div>
-        <div class="footer-col">
-            <div class="socials">
-                <a href="https://www.facebook.com/assef.515" target="_blank" rel="noopener" aria-label="Facebook">
-                    <img src="images/FacebookLogo.svg" alt="Facebook">
-                </a>
-                <a href="https://www.instagram.com/pt.assef/" target="_blank" rel="noopener" aria-label="Instagram">
-                    <img src="images/InstagramLogo.svg" alt="Instagram">
-                </a>
-                <a href="https://www.tiktok.com/@assef001" target="_blank" rel="noopener" aria-label="TikTok">
-                    <img src="images/TiktokLogo.svg" alt="TikTok">
-                </a>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <h1>BUILD MUSCLE.</h1>
+        <h1>BURN FAT.</h1>
+        <h1>NO EXCUSES.</h1>
+        <form action="https://formspree.io/f/mblydlzp" method="POST">
+            <input type="email" name="email" placeholder="Email" required />
+            <button type="submit">BEGIN YOUR TRANSFORMATION</button>
+        </form>
+    </header>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="images/Barbell.svg" alt="Barbell icon">
+                <h3>1-to-1 Coaching</h3>
+                <p>Personalised training sessions, with someone who pushes you beyond the limits of what you thought you could do.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/UserList.svg" alt="Profile icon">
+                <h3>Personal Plans</h3>
+                <p>Custom workouts specific to each client, based on your body, experience level, lifestyle and goals.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/Handshake.svg" alt="Handshake icon">
+                <h3>Trustworthy Knowledge</h3>
+                <p>Certified training and nutrition advice from an experienced coach — licensed and qualified in the EU.</p>
             </div>
         </div>
-        <div class="footer-col">
-            <p class="copyright">&copy; 2025 A.A. All rights reserved.</p>
-        </div>
-    </div>
-  </footer>  
+    </section>
 
-  <script src="script.js"></script>
+    <!-- TRANSFORMATIONS -->
+    <section id="transformations">
+        <h2>Transformations</h2>
+        <div class="slider-container">
+            <div class="slider-track" id="sliderTrack">
+                <div class="slide"><img src="images/pexels-ivan-samkov-4164759.jpg" alt="Client 1" /></div>
+                <div class="slide"><img src="images/pexels-ivan-samkov-4164759.jpg" alt="Client 2" /></div>
+                <div class="slide"><img src="images/pexels-ivan-samkov-4164759.jpg" alt="Client 3" /></div>
+                <div class="slide"><img src="images/pexels-ivan-samkov-4164759.jpg" alt="Client 4" /></div>
+                <div class="slide"><img src="images/pexels-ivan-samkov-4164759.jpg" alt="Client 5" /></div>
+                <div class="slide"><img src="images/pexels-ivan-samkov-4164759.jpg" alt="Client 6" /></div>
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button class="slider-btn" id="prevBtn">&#10094;</button>
+            <button class="slider-btn" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+  
+      
+      
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/mblydlzp" method="POST">
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message (Optional)"></textarea>
+            <button type="submit">SEND</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo-footer">
+                    <a href="#">
+                        <img src="images/logo-bg-none.png" alt="A.A logo">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="socials">
+                    <a href="https://www.facebook.com/assef.515" target="_blank" rel="noopener" aria-label="Facebook">
+                        <img src="images/FacebookLogo.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/pt.assef/" target="_blank" rel="noopener" aria-label="Instagram">
+                        <img src="images/InstagramLogo.svg" alt="Instagram">
+                    </a>
+                    <a href="https://www.tiktok.com/@assef001" target="_blank" rel="noopener" aria-label="TikTok">
+                        <img src="images/TiktokLogo.svg" alt="TikTok">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <p class="copyright">&copy; 2025 A.A. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>  
+
+    <script>
+        const track = document.getElementById('sliderTrack');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+      
+        let currentIndex = 0;
+        const slidesToShow = window.innerWidth <= 768 ? 1 : 3;
+        const totalSlides = track.children.length;
+      
+        function updateSlider() {
+          const slideWidth = track.clientWidth / slidesToShow;
+          track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+        }
+      
+        prevBtn.addEventListener('click', () => {
+          if (currentIndex > 0) {
+            currentIndex--;
+            updateSlider();
+          }
+        });
+      
+        nextBtn.addEventListener('click', () => {
+          const maxIndex = totalSlides - slidesToShow;
+          if (currentIndex < maxIndex) {
+            currentIndex++;
+            updateSlider();
+          }
+        });
+      
+        window.addEventListener('resize', () => {
+          updateSlider();
+        });
+      
+        updateSlider();
+    </script>
+      
+      
 </body>
 </html>
