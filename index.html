@@ -22,21 +22,44 @@
             </a>
         </div>
         <ul class="nav-links">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#transformations">Transformations</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#transformations">TRANSFORMATIONS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </div>
   </nav>
 
   <section id="services">
     <h2>Services</h2>
-    <!-- List services here -->
+    <div class="services-container">
+        <div class="service-card">
+          <h3>1-on-1 Coaching</h3>
+          <p>Personalised training plans, accountability, and support.</p>
+        </div>
+        <div class="service-card">
+          <h3>Online Plans</h3>
+          <p>Custom workout and meal plans sent straight to your inbox.</p>
+        </div>
+        <div class="service-card">
+          <h3>Group Sessions</h3>
+          <p>Train hard with a team. Burn fat and build muscle together.</p>
+        </div>
+      </div>      
   </section>
 
   <section id="transformations">
     <h2>Transformations</h2>
-    <!-- Client images and stats -->
+    <div class="transformations-container">
+        <div class="transformation-card">
+          <img src="images/client1.jpg" alt="Client 1" />
+          <p>-12kg in 4 months</p>
+        </div>
+        <div class="transformation-card">
+          <img src="images/client2.jpg" alt="Client 2" />
+          <p>+7kg muscle in 6 months</p>
+        </div>
+        <!-- Add more -->
+      </div>      
   </section>
 
   <section id="contact">
@@ -44,9 +67,37 @@
     <form action="https://formspree.io/f/mblydlzp" method="POST">
       <input type="email" name="email" placeholder="Your email" required />
       <textarea name="message" placeholder="Your message" required></textarea>
-      <button type="submit">Send</button>
+      <button type="submit">SEND</button>
     </form>
   </section>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <div class="logo-footer">
+                <a href="#">
+                    <img src="images/logo-bg-none.png" alt="A.A logo">
+                </a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <div class="socials">
+                <a href="https://www.facebook.com/assef.515" target="_blank" rel="noopener" aria-label="Facebook">
+                    <img src="/images/FacebookLogo.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/pt.assef/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <img src="/images/InstagramLogo.svg" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/@assef001" target="_blank" rel="noopener" aria-label="TikTok">
+                    <img src="/images/TiktokLogo.svg" alt="TikTok">
+                </a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <p class="copyright">&copy; 2025 A.A. All rights reserved.</p>
+        </div>
+    </div>
+  </footer>  
 
   <script src="script.js"></script>
 </body>
