@@ -51,56 +51,55 @@ h3 {
     background: rgba(0, 0, 0, 0.4);
     color: white;
     z-index: 1000;
-    padding: 1rem 2rem;
-  }
+}
   
-  .nav-container {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
   
-  .logo img {
+.logo img {
     height: 50px;
     width: auto;
     padding: 8px 0 6px 0;
-  }
+}
   
-  /* NAV LINKS */
-  .nav-links {
+/* NAV LINKS */
+.nav-links {
     list-style: none;
     display: flex;
     gap: 3rem;
     margin: 0;
     padding: 2px;
-  }
+}
   
-  .nav-links a {
+.nav-links a {
     text-decoration: none;
     color: white;
     font-size: 0.8rem;
     font-weight: 400;
     transition: color 0.3s ease;
-  }
+}
   
-  .nav-links a:hover {
+.nav-links a:hover {
     color: #FC0404;
-  }
+}
   
-  /* HAMBURGER BUTTON */
-  .hamburger {
+/* HAMBURGER BUTTON */
+.hamburger {
     display: none;
     font-size: 2rem;
     background: none;
     border: none;
     color: white;
     cursor: pointer;
-  }
+}
   
-  /* MOBILE STYLES */
-  @media (max-width: 768px) {
+/* MOBILE STYLES */
+@media (max-width: 768px) {
     .hamburger {
       display: block;
     }
@@ -121,8 +120,7 @@ h3 {
     .nav-links.show {
       display: flex;
     }
-  }
-  
+}
   
 /* To avoid hiding the top of your content behind the nav */
     /* body { */
