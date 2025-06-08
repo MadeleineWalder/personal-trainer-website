@@ -222,9 +222,15 @@ button {
 
 .location {
     margin: auto;
-    padding: 0.5rem;
+    padding: 0.8rem;
     border-radius: 4px;
-    max-width: 400px;
+    max-width: 280px;
+    border: 2px solid #FC0404;
+    transition: color 0.3s ease;
+}
+
+.location:hover {
+    border: 2px solid darkred;
 }
 
 .location p {
@@ -232,6 +238,10 @@ button {
     font-size: 1rem;
 }
 
+.location-container a {
+    text-decoration: none;
+    color: white;
+}
 
 /* TRANSFORMATIONS SECTION */
 
@@ -261,7 +271,7 @@ button {
   
 .slide img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 4px;
     display: block;
 }
   
@@ -279,13 +289,80 @@ button {
     font-size: 2rem;
     padding: 0.4rem 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 4px;
     transition: background 0.3s;
 }
   
 .slider-btn:hover {
     background: rgba(255, 255, 255, 0.2);
 } 
+
+
+
+/* GALLERY */
+
+#gallery {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+.insta-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+  
+.insta-gallery blockquote {
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 320px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-p {
+    font-size: 1.1rem;
+}
+
+.insta-text-container {
+    display: flex;
+}
+
+.insta-text {
+    margin: auto;
+    display: flex;
+}
+
+.insta-text img {
+    padding: 12px;
+}
+
+.insta-profile-container {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-profile {
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: color 0.3s ease;
+}
+
+.insta-profile img {
+    border: 2px solid #FC0404;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.insta-profile:hover img {
+    border: 2px solid darkred;
+}
 
 
 
@@ -326,6 +403,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: darkred;
 }
+  
 
 
 /* FOOTER */
@@ -459,5 +537,13 @@ footer {
 
     #contact {
         padding: 2rem 1rem;
+    }
+
+    #gallery {
+        padding: 2rem 1rem;
+    }
+
+    .gallery-p {
+        font-size: 0.9rem;
     }
 }
