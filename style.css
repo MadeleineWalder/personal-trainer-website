@@ -163,7 +163,6 @@ header button {
   background-color: #FC0404;
   color: white;
   border: none;
-  
   transition: background 0.3s;
 }
 
@@ -224,17 +223,18 @@ button {
 .location {
     margin: auto;
     padding: 0.5rem;
-    /* background: #222; */
     border-radius: 4px;
     max-width: 400px;
 }
 
 .location p {
     margin-top: 6px;
+    font-size: 1rem;
 }
 
 
 /* TRANSFORMATIONS SECTION */
+
 #transformations {
     padding: 4rem 2rem;
     background: #111;
@@ -414,7 +414,42 @@ footer {
         font-size: 1.2rem;
     }
 
+    header button {
+        font-size: 0.8rem;
+    }
+
+    .header-form {
+        max-width: 270px;
+    }
+
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+
+    #services {
+        padding: 2rem 1rem;
+    }
+
+    .service-card p {
+        font-size: 0.9rem;
+        margin-top: -12px;
+        line-height: 1.4rem;
+    }
+    
+    .location p {
+        margin-top: 5px;
+        font-size: 0.9rem;
+    }
+
+    #transformations {
+        padding-top: 2rem;
+    }
+
     .slide {
         flex: 0 0 100%;
+    }
+
+    #contact {
+        padding: 2rem 1rem;
     }
 }
