@@ -43,8 +43,7 @@ h3 {
 }
 
 .sub-heading {
-    margin-top: -10px;
-    margin-bottom: 4rem;
+    
 }
 
 
@@ -408,7 +407,13 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: darkred;
 }
-  
+
+
+/* LOCATION */
+
+#location {
+    text-align: center;
+}
 
 
 /* FOOTER */
