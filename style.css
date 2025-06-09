@@ -43,7 +43,7 @@ h3 {
 }
 
 .sub-heading {
-    margin-top: 4rem;
+    padding-top: 4rem;
 }
 
 
@@ -129,16 +129,17 @@ header {
 }
   
 header::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: opacity 1s ease-in-out;
-    opacity: 1;
-    z-index: 0;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transition: background-image 1s ease-in-out;
 }
+
   
 header::after {
     content: '';
@@ -220,6 +221,20 @@ button {
     line-height: 1.6rem;
 }
 
+.certificates-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.certificate img {
+    max-width: 320px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+}
+
 .location-container {
     margin-top: 3rem;
 }
@@ -254,6 +269,7 @@ button {
     background: #111;
     text-align: center;
     color: white;
+    display: none; /* DELETE TO SHOW */
 }
   
 .slider-container {
@@ -500,6 +516,10 @@ footer {
 
     h3 {
         font-size: 1.2rem;
+    }
+
+    .sub-heading {
+        padding: 2rem 1rem;
     }
 
     header button {
