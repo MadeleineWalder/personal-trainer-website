@@ -42,6 +42,11 @@ h3 {
     text-transform: uppercase;
 }
 
+.sub-heading {
+    margin-top: -10px;
+    margin-bottom: 4rem;
+}
+
 
 /* NAVBAR BASE */
 .navbar {
