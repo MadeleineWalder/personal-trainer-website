@@ -494,7 +494,7 @@ button[type="submit"]:hover {
 footer {
     background-color: #000;
     color: #fff;
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
     margin-top: 5rem;
     text-align: center;
 }
@@ -533,6 +533,21 @@ footer {
 .copyright {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.45);
+    margin-top: 4rem;
+}
+
+.credits {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.765);
+    margin-top: 1rem;
+}
+
+.credits a {
+    color: white;
+}
+
+.credits a:hover {
+    color: #FC0404;
 }
 
 
