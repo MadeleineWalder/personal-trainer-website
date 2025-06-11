@@ -4,16 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- SEO -->
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/favicon3.png" />
+  <link rel="icon" type="image/png" href="images/Favicon-96x96.png" />
   <!-- Apple Touch Icon (Webclip) -->
   <link rel="apple-touch-icon" sizes="180x180" href="images/webclip-180.png">
   <!-- Android/General Favicon -->
   <link rel="icon" type="image/png" sizes="192x192" href="images/webclip-192.png">
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- SEO -->
   <title>Assef Almasri</title>
   <meta property="og:title" content="Assef Almasri">
   <meta name="description" content="Assef Almasri, body building, fitness, coach, personal training, pt, nutrition advisor, diet, loose fat, build muscle, gym, Malmö">
@@ -24,13 +21,16 @@
 
   <!-- Google Verification -->
   <meta name="google-site-verification" content="YwJj0UV3uv3txXyHlSHRyOT1_uwqKMzPvADJZYWmCkI" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <!--
 
-    Add new page for om mig with picture
+    Add bra att veta, not a priority (?)
 
-    Add bra att veta, not a priority
+    Add my portfolio
 
 -->
 
@@ -51,6 +51,7 @@
         
             <ul class="nav-links" id="navLinks">
                 <li><a href="#services">SERVICES</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
                 <!--<li><a href="#transformations">TRANSFORMATIONS</a></li>-->
                 <li><a href="#gallery">GALLERY</a></li>
                 <li><a href="#contact">CONTACT</a></li>
@@ -82,21 +83,46 @@
             <div class="service-card">
                 <img src="images/Barbell.svg" alt="Coaching icon">
                 <h3>1-to-1 Coaching</h3>
-                <p>Personalised training sessions, with someone who pushes you beyond the limits of what you thought you could do.</p>
+                <p class="service-card-p">Personalised training sessions, with someone who pushes you beyond the limits of what you thought you could do.</p>
             </div>
             <div class="service-card">
                 <img src="images/UserList.svg" alt="Personal Plans icon">
                 <h3>Personal Plans</h3>
-                <p>Custom workouts specific to each client, based on your body, experience level, lifestyle and goals.</p>
+                <p class="service-card-p">Custom workouts specific to each client, based on your body, experience level, lifestyle and goals.</p>
             </div>
             <div class="service-card">
                 <img src="images/Handshake.svg" alt="Diet Plan & Nutritional Advice icon">
                 <h3>Diet Plan & Nutritional Advice</h3>
-                <p>Certified training and nutrition advice from an experienced coach — licensed and qualified in the EU.</p>
+                <p class="service-card-p">Certified training and nutrition advice from an experienced coach — licensed and qualified in the EU.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-me-container">
+            <div class="profile-pic"></div>
+            <p class="about-card-p">
+                Want to reach your fitness goals? I can help you.
+                I can provide you with nutritional advice, diet plans, training programs and professional coaching sessions.
+                I work individually, meaning that I personalise each experience based on your conditions, wishes and needs to achieve the best results.
+                I am an ex-boxer with over <span class="red-highlight">10 years of experience</span> in bodybuilding, fitness and nutritional advice. 
+                I am also licensed as an international personal trainer and have EQF4 certification, which you can see below.
+            </p>
+            <button id="aboutMoreBtn" class="about-more-btn" type="button">More</button>
+            <div id="aboutMoreText" class="about-more-text" style="display: none;">
+                <p class="about-card-p">
+                    The basis for personal training is that it's customised to each individual's needs and conditions. 
+                    It doesn't matter if you're a beginner in exercise and training, or if you're an elite athlete. 
+                    I coach based on the principles of anatomy, physiology, sports science and nutrition. Together we can apply this knowledge in the best way possible based on your specific conditions. 
+                    I have a supportive and motivating coaching style, meaning I will push you to have more energy, get better training routines and simply feel better!
+                </p>
             </div>
         </div>
 
-        <h1 class="sub-heading">Trustworthy Knowledge</h1>
+        <!-- ABOUT/CERTIFICATES -->
         <div class="certificates-container">
             <div class="certificate">
                 <img src="images/pt-certificate 1.jpg" alt="PT certificate 1">

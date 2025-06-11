@@ -215,11 +215,66 @@ button {
     width: 60px;
 }
 
-.service-card p {
+.service-card-p {
     font-size: 1.1rem;
     margin-top: -12px;
     line-height: 1.6rem;
 }
+
+
+/* ABOUT SECTION */
+
+#about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    background-image: url('images/profile-pic-1-100px.png');
+    border: 2px solid white;
+}
+
+.about-card-p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.about-me-container {
+    max-width: 900px;
+    margin: auto;
+    background: #222;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.red-highlight {
+    color: #FC0404;
+}
+
+.about-more-btn {
+    background-color: #FC0404;
+    color: white;
+    padding: 0.6rem 1.3rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-more-btn:hover {
+    background-color: darkred;
+}
+
+
+/* ABOUT/CERTIFICATES */
 
 .certificates-container {
     display: flex;
@@ -234,6 +289,9 @@ button {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 2px;
 }
+
+
+/* LOCATION (MOVED TO END OF PAGE) */
 
 .location-container {
     margin-top: 3rem;
@@ -261,6 +319,7 @@ button {
     text-decoration: none;
     color: white;
 }
+
 
 /* TRANSFORMATIONS SECTION */
 
@@ -316,7 +375,6 @@ button {
 .slider-btn:hover {
     background: rgba(255, 255, 255, 0.2);
 } 
-
 
 
 /* GALLERY */
@@ -383,7 +441,6 @@ button {
 .insta-profile:hover img {
     border: 2px solid darkred;
 }
-
 
 
 /* CONTACT SECTION */
@@ -546,7 +603,7 @@ footer {
         padding: 2rem 1rem;
     }
 
-    .service-card p {
+    .service-card-p {
         font-size: 0.9rem;
         margin-top: -12px;
         line-height: 1.4rem;
@@ -555,6 +612,15 @@ footer {
     .location p {
         margin-top: 5px;
         font-size: 0.9rem;
+    }
+
+    #about {
+        padding: 2rem 1rem;
+    }
+
+    .about-card-p {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
     }
 
     #transformations {

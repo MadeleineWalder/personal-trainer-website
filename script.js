@@ -15,6 +15,26 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 
 
+// About Section More/Less Toggle
+
+document.addEventListener('DOMContentLoaded', function() {
+    const moreBtn = document.getElementById('aboutMoreBtn');
+    const moreText = document.getElementById('aboutMoreText');
+    if (moreBtn && moreText) {
+        moreBtn.addEventListener('click', function() {
+            if (moreText.style.display === 'none') {
+                moreText.style.display = 'block';
+                moreBtn.textContent = 'Less';
+            } else {
+                moreText.style.display = 'none';
+                moreBtn.textContent = 'More';
+            }
+        });
+    }
+});
+
+
+
 // Transformations Image Slider
 
 const track = document.getElementById('sliderTrack');
